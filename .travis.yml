@@ -6,10 +6,15 @@ jobs:
 #       script:
 #         - clang -coverage -O0 hello_world.c -o hello_world
 #         - ./hello_world
-    - os: linux
-      language: python
-      dist: bionic
-      arch: amd64
-      script:
-        - python hello_world.py
-    
+#    - os: linux
+#      language: python
+#      dist: bionic
+#      arch: amd64
+#      script:
+#        - python hello_world.py
+    - stage: test
+      script: ./test 1
+    - # stage name not required, will continue to use `test`
+      script: ./test 2
+    - stage: deploy
+      script: ./deploy
