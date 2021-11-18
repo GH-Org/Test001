@@ -16,6 +16,7 @@ jobs:
       script: python hello_world.py
         
     - # stage name not required, will continue to use `test`
+    - stage: test  
       script: python hello_world.py
         
     - stage: deploy
