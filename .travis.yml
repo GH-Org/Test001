@@ -13,11 +13,11 @@ jobs:
 #      script:
 #        - python hello_world.py
     - stage: test
-      script: ./test 1
-        - python hello_world.py
+      script: python hello_world.py
+        
     - # stage name not required, will continue to use `test`
-      script: ./test 2
-        - python hello_world.py
+      script: python hello_world.py
+        
     - stage: deploy
-      script: ./deploy
-        - python hello_world.py
+      script: python hello_world.py
+        
