@@ -1,7 +1,7 @@
 class HelloWorld {
     public static void main(String[] args) {
       int i;fact=1;
-      int number = 9999999;
+      int number = 999999;
    for(i=1,i<=number; i++)
    {
    fact=fact*i;   
