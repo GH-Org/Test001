@@ -12,7 +12,7 @@ jobs:
 #      arch: amd64
 #      script:
 #        - python hello_world.py
-    - stage: test
+    - stage: test1
       script: python hello_world.py
     - stage: test  
       script: python hello_world.py  
