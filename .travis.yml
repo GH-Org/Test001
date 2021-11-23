@@ -12,16 +12,16 @@ jobs:
 #      arch: amd64
 #      script:
 #        - python hello_world.py
-    - stage: test1
-      script: python hello_world.py
-    - stage: test  
-      script: python hello_world.py  
-    - stage: deploy
-      script: python hello_world.py
- #   - os: linux
- #    language: python
- #    dist: focal
- #    arch: amd64
- #   script:
- #       - python hello_world.py
+#   - stage: test1
+#      script: python hello_world.py
+#   - stage: test  
+#      script: python hello_world.py  
+#    - stage: deploy
+#      script: python hello_world.py
+    - os: linux
+      language: python
+      dist: focal
+      arch: amd64
+      script:
+        - python hello_world.py
     
