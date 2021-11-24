@@ -1,23 +1,5 @@
 jobs:
   include:
-#     - os: windows
-#       language: c
-#       arch: amd64
-#       script:
-#         - clang -coverage -O0 hello_world.c -o hello_world
-#         - ./hello_world
-#    - os: linux
-#      language: python
-#      dist: bionic
-#      arch: amd64
-#      script:
-#        - python hello_world.py
-#   - stage: test1
-#      script: python hello_world.py
-#   - stage: test  
-#      script: python hello_world.py  
-#    - stage: deploy
-#      script: python hello_world.py
     - os: linux
       language: python
       dist: focal
