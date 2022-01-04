@@ -6,11 +6,4 @@ jobs:
       arch: amd64
       script:
         - python hello_world.py
-    - os: linux
-      dist: xenial
-      language: ruby
-      cache: bundler
-      arch: amd64
-      script:
-        - python hello_world.py
     
