@@ -1,6 +1,6 @@
 jobs:
   include:
-    - os: freebsd
+    - os: linux
       language: python
       arch: amd64
       script:
