@@ -1,9 +1,8 @@
 jobs:
   include:
-    - os: linux
-      dist: xenial
+    - os: freebsd
       language: python
       arch: amd64
       script:
-        - python helo_world.py
+        - python hello_world.py
     
