@@ -5,5 +5,5 @@ jobs:
       language: python
       arch: amd64
       script:
-        - python hello_world.py
+        - python helo_world.py
     
