@@ -2,6 +2,8 @@ jobs:
   include:
     - os: linux
       language: python
+      python:
+        - "3.8"
       arch: amd64
       script:
         - python hello_world.py
