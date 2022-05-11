@@ -1,6 +1,6 @@
 jobs:
   include:
-    - os: linux
+    - os: java
       language: python
       python:
        - "3.8"
